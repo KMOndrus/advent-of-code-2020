@@ -5,5 +5,7 @@
  ****************************************************************/
 'use strict';
 const { day1Puzzle1 } = require('./puzzles/day1Puzzle1/day1Puzzle1');
+const { day1Puzzle2 } = require('./puzzles/day1Puzzle2/day1Puzzle2');
 
-day1Puzzle1();
+// day1Puzzle1();
+day1Puzzle2();
