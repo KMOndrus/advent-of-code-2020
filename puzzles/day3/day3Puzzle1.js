@@ -2,7 +2,7 @@
 const { readInterface } = require('../../utils/fileReader');
 
 const day3Puzzle1 = async () => {
-  const readFile = readInterface('puzzles/day3Puzzle1/puzzleInput.txt');
+  const readFile = readInterface('puzzles/day3/puzzleInput.txt');
   let lineCount = 0;
   let treesIWillHit = 0;
 
