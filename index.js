@@ -10,6 +10,7 @@ const { day2Puzzle1 } = require('./puzzles/day2/day2Puzzle1');
 const { day2Puzzle2 } = require('./puzzles/day2/day2Puzzle2');
 const { day3Puzzle1 } = require('./puzzles/day3/day3Puzzle1');
 const { day3Puzzle2 } = require('./puzzles/day3/day3Puzzle2');
+const { day4Puzzle1 } = require('./puzzles/day4/day4Puzzle1');
 
 // day1Puzzle1();
 // Your puzzle answer was 972576
@@ -35,3 +36,6 @@ const arrayOfSlopes = [
 ];
 // day3Puzzle2(arrayOfSlopes);
 // Your puzzle answer was 1666768320
+
+// day4Puzzle1();
+// Your puzzle answer was 242
