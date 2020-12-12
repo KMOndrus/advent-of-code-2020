@@ -5,7 +5,7 @@ const day1Puzzle2 = async () => {
   const EXPECTED_SUM = 2020;
   const expensesSet = new Set();
   const expensesArray = [];
-  const readFile = readInterface('puzzles/day1Puzzle1/puzzleInput.txt');
+  const readFile = readInterface('puzzles/day1/puzzleInput.txt');
 
   for await (const line of readFile) {
     let isAnswerFound = false;

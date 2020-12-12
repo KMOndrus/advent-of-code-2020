@@ -2,7 +2,7 @@
 const { readInterface } = require('../../utils/fileReader');
 
 const day2Puzzle2 = async () => {
-  const readFile = readInterface('puzzles/day2Puzzle1/puzzleInput.txt');
+  const readFile = readInterface('puzzles/day2/puzzleInput.txt');
   let numberOfValidPasswords = 0;
 
   for await (const line of readFile){

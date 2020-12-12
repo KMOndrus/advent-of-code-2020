@@ -4,7 +4,7 @@ const { readInterface } = require('../../utils/fileReader');
 const day1Puzzle1 = async () => {
   const EXPECTED_SUM = 2020;
   const expenseValues = new Set();
-  const readFile = readInterface('puzzles/day1Puzzle1/puzzleInput.txt');
+  const readFile = readInterface('puzzles/day1/puzzleInput.txt');
 
   for await (const line of readFile) {
     const numericLine = parseInt(line.trim());
